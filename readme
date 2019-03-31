@@ -1,0 +1,15 @@
+#root ¿¬°á
+git init
+git remote add origin https://github.com/phjpsy/phjpsy.git
+
+#push
+git status
+git add .
+git commit -m "ptest"
+git push origin +master
+
+#pull
+git pull origin master
+
+git config --global user.email "phjpsy@naver.com"
+git config --global user.name "phjpsye"
